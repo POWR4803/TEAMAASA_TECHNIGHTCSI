@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1034738537272",
+    "project_id": "fitnesstracker-ac2ab",
+    "storage_bucket": "fitnesstracker-ac2ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034738537272:android:37e734872179bafb51e7cd",
+        "android_client_info": {
+          "package_name": "com.example.fitness_tracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034738537272-1p0gcn45v6k55h0e2v50okmgk011i6j4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqk_f8aKIQ44ExVv6B_EpOJb4j2EzOCDo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1034738537272-1p0gcn45v6k55h0e2v50okmgk011i6j4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034738537272:android:c676dd115fb5eab951e7cd",
+        "android_client_info": {
+          "package_name": "com.example.testproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034738537272-1p0gcn45v6k55h0e2v50okmgk011i6j4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqk_f8aKIQ44ExVv6B_EpOJb4j2EzOCDo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1034738537272-1p0gcn45v6k55h0e2v50okmgk011i6j4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
