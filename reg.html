@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Form</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <style>
+      body {
+        background-image: url("https://source.unsplash.com/1600x900/?fitness");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .form-container {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <div class="form-container">
+            <h2 class="text-center mb-4">Registration Form</h2>
+            <form action="#" method="POST">
+              <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" class="form-control" name="username" id="username" required>
+              </div>
+              <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" class="form-control" name="password" id="password" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" name="email" id="email" required>
+              </div>
+              <div class="form-group">
+                <label for="age">Age:</label>
+                <input type="number" class="form-control" name="age" id="age" min="18" max="99" required>
+              </div>
+              <div class="form-group">
+                <label for="height">Height (cm):</label>
+                <input type="number" class="form-control" name="height" id="height" min="120" max="220" required>
+              </div>
+              <div class="form-group">
+                <label for="weight">Weight (kg):</label>
+                <input type="number" class="form-control" name="weight" id="weight" min="40" max="150" required>
+              </div>
+              <div class="form-group">
+                <label for="fitness-level">Fitness Level:</label>
+                <select class="form-control" name="fitness-level" id="fitness-level" required>
+                  <option value="">Select Fitness Level</option>
+                  <option value="beginner">Beginner</option>
+                  <option value="intermediate">Intermediate</option>
+                  <option value="advanced">Advanced</option>
+                </select>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">Register</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

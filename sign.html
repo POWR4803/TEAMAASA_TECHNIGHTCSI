@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LOGIN</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+		}
+
+		.container {
+			max-width: 500px;
+			margin: 0 auto;
+			padding: 20px;
+			background-color: #fff;
+			box-shadow: 0 0 10px rgba(0,0,0,0.2);
+		}
+
+		.form-group {
+			margin-bottom: 20px;
+		}
+
+		label {
+			display: block;
+			margin-bottom: 5px;
+			font-weight: bold;
+		}
+
+		input[type="text"],
+		input[type="password"] {
+			width: 100%;
+			padding: 10px;
+			border: none;
+			border-radius: 29px;
+			background-color: #f2f2f2;
+			box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+			font-size: 16px;
+			color: #333;
+            box-sizing: border-box;
+		}
+
+		input[type="submit"] {
+			display: block;
+			width: 100%;
+			padding: 10px;
+			border: none;
+			border-radius: 29px;
+			background-color: #442282;
+			color: #fff;
+			font-size: 16px;
+			cursor: pointer;
+		}
+
+		h1 {
+			text-align: center;
+			margin-bottom: 30px;
+		}
+
+		.switch-form {
+			text-align: center;
+			margin-top: 20px;
+		}
+
+		.switch-form a {
+			color: #442282;
+			text-decoration: none;
+			font-weight: bold;
+			margin-left: 5px;
+			margin-right: 5px;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Login</h1>
+
+		<!-- Login form -->
+		<form id="login-form" class="form-group">
+			<label for="login-email">Email:</label> &nbsp
+			<input type="text" id="login-email" name="login-email" size="20"  required>&nbsp
+
+			<label for="login-password">Password:</label> &nbsp
+			<input type="password" id="login-password" name="login-password" size="20" required>&nbsp
+
+			<input type="submit" value="Login">
+		</form>
+
+		
+
+		<!-- Switch between forms -->
+		<div class="switch-form">
+			<span>Don't have an account?</span>
+			<a href="#" id="switch-to-signup">Sign up</a>
+		</div>
+
+		
+	</div>
+
+	
